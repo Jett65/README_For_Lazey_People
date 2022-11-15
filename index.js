@@ -5,6 +5,16 @@ const fs = require("fs")
 const questions = [
     {
         type:"input",
+        message:"Enter your Email address",
+        name:"Email",
+    },
+    {
+        type:"input",
+        message:"Enter yur GutHub username",
+        name:"username",
+    },
+    {
+        type:"input",
         message:"Enter a title",
         name: "title",
     },
@@ -29,13 +39,14 @@ const questions = [
         name:"usage",
     },
     {
-        type:"Input",
+        type:"list",
+        choich:["None","Apache License 2.0", "GNU General Public License v3.0", 'MIT License', 'BSD 2-Clause "Simplified" Licensev', 'BSD 3-Clause "New" or "Revised" License', "Boost Software License 1.0", "Creative Commons Zero v1.0 Universal", "Eclipse Public License 2.0", "GNU Affero General Public License v3.0", "GNU General Public License v2.0", "GNU Lesser General Public License v2.1", "Mozilla Public License 2.0", "The Unlicense"],
         message:"Enter the licencing",
         name:"licenc",
     },
     {
         type:"input",
-        message:"Enter the contributes of the project",
+        message:"Enter Contributing criteria",
         name:"contribution",
     }, 
     {
@@ -48,28 +59,37 @@ const questions = [
         message:"Enter questions",
         name:"questions",
     },
+    {
+        type:"input",
+        message:"How can one reach you for additional questions",
+        name:"addQuestions",
+    },
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    `# ${"Title"}
+
+    ## Description
+
+    ### Table of Contents
+
+    ### Installing
+
+    ### Usage
+
+    ### License
+
+    ### Contributig
+
+    ### Tests
+
+    ### Questions` 
+
+}
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer
-        .prompt([questions])
-        .then((response) =>
-            response.confirm === responce.title
-                ? console.log(questions)
-                : console.log("sade")
-    );
-}
-
-// Function call to initialize app
-init();
-// with the title of my project 
-// and sections entitled Description, 
-// Table of Contents, 
-// 00Installation, 
 // Usage, 
 // License, 
 // Contributing, 
