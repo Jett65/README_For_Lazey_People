@@ -1,3 +1,4 @@
+
 //  Include packages needed for this application
 const inquirer = require("inquirer")
 const fs = require("fs")
@@ -68,6 +69,7 @@ function init() {
 
 ${description}
 
+
 ## Table of Contents
 
 ## Instalation
@@ -77,6 +79,7 @@ ${installation}
 ## Usage
 
 ${usage}
+
 
 ## License
 
@@ -99,6 +102,7 @@ ${email}`
             fs.writeFile(file, renderREADME, (err) =>
                 err ? console.error(err) : console.log("File Generated")
             );
+
         });
 }
 
