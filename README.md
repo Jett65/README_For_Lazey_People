@@ -35,7 +35,7 @@ Use node index.js in a your project, fill out the promts and a README.md file wu
 
 ## Test
 
-![Video](./README_For_Lazey_People/Assests/2022-11-17 11-02-07)
+![Video]("C:\Users\jettr\repos\Challenges\README_For_Lazey_People\Assests\2022-11-17 11-02-07.mkv"7)
 
 ## Questions
 
