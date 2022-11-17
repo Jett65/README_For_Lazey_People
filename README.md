@@ -35,7 +35,7 @@ Use node index.js in a your project, fill out the promts and a README.md file wu
 
 ## Test
 
-[Vido](./\Assests\ezgif.com-gif-maker.gif)
+[Vido](.\Assests\ezgif.com-gif-maker.gif)
 
 ## Questions
 
