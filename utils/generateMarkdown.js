@@ -55,7 +55,7 @@ ${data.description}
 
 ## Instalation
 
-${data.Instalation}
+${data.instalation}
 
 ## Usage
 
