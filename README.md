@@ -35,7 +35,7 @@ Use node index.js in a your project, fill out the promts and a README.md file wu
 
 ## Test
 
-![video](./Assests/2022-11-17 11-02-07.mkv)
+[video](./Assests/2022-11-17 11-02-07.mkv)
 
 ## Questions
 
