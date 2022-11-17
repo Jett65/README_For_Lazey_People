@@ -39,6 +39,20 @@ ${data.description}
 
 ## Table of Contents
 
+[Description](#description)
+
+[Instalation](#instalation)
+
+[Usage](#usage)
+
+[Contributing](#contributing)
+
+[Test](#test)
+
+[Questions](#questions)
+
+[License](#license)
+
 ## Instalation
 
 ${data.Instalation}
@@ -55,11 +69,11 @@ ${data.contributing}
 
 ${data.test}
 
-## QUestions
+## Questions
 
-${data.username}
+For any questions contact me at: ${data.email}:
 
-${data.email}
+[My GitHub: ${data.username}](https://github.com/${data.username})
 
 ${renderLicenseSection(data.license)}`;
 

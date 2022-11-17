@@ -10,48 +10,48 @@ const file  = "./README.md"
 const questions = [
     {
         type:"input",
-        message:"Enter your Email address",
+        message:"Enter your Email address:",
         name:"email",
     },
     {
         type:"input",
-        message:"Enter yur GutHub username",
+        message:"Enter yur GutHub username:",
         name:"username",
     },
     {
         type:"input",
-        message:"Enter a title",
+        message:"Enter your project title:",
         name: "title",
     },
     {
         type:"input",
-        message:"Describe your project",
+        message:"Enter your project description:",
         name:"description",
     }, 
     {
         type:"input",
-        message:"Enter instructions to install your program",
+        message:"Enter instructions to install your program:",
         name:"installation",
     },
     {
         type:"input",
-        message:"How is your program used",
+        message:"Enter how to use your project:",
         name:"usage",
     },
     {
         type:"list",
-        message:"Enter the licencing",
+        message:"Choose a licencing that best fits your project",
         choices:["None","Apache License 2.0", "GNU General Public License v3.0", 'MIT License', 'BSD 2-Clause "Simplified" Licensev', 'BSD 3-Clause "New" or "Revised" License', "Boost Software License 1.0", "Creative Commons Zero v1.0 Universal", "Eclipse Public License 1.0", "GNU Affero General Public License v3.0", "GNU General Public License v2.0", "GNU Lesser General Public License v3.0", "Mozilla Public License 2.0", "The Unlicense"],
         name:"license",
     },
     {
         type:"input",
-        message:"Enter Contributing criteria",
+        message:"Enter Contributing criteria:",
         name:"contributing",
     }, 
     {
         type:"input",
-        message:"Enter Tests",
+        message:"Enter Tests:",
         name:"test",
     }, 
 ];
