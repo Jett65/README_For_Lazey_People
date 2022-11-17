@@ -35,7 +35,6 @@ Use node index.js in a your project, fill out the promts and a README.md file wu
 
 ## Test
 
-https://github.com/Jett65/README_For_Lazey_People/blob/main/2022-11-17%2011-02-07.mkv
 
 ## Questions
 
